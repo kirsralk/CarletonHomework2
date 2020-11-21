@@ -1,0 +1,34 @@
+/* --- STYLES FOR ALL PAGES --- */
+
+article, aside, header, main, nav {
+    display: block;
+}
+
+body {
+
+}
+
+html {
+    position: relative;
+}
+
+ /* FOOTER */
+.footer {
+    position: absolute;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* END FOOTER */
+
+  /* --- PAGE SPECIFIC STYLES ---*/
+
+  /* ABOUT ME PAGE */
