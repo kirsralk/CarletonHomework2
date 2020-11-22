@@ -1,5 +1,9 @@
 # CarletonHomework2
 
+Link to deployed website: https://kirsralk.github.io/CarletonHomework2/index.html
+
+![Screenshot-of-site](assets/images/screenshot.png)
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
