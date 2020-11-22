@@ -32,3 +32,10 @@ html {
   /* --- PAGE SPECIFIC STYLES ---*/
 
   /* ABOUT ME PAGE */
+
+#about-image {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 20px 20px 20px;
+}
