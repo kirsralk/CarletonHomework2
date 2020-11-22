@@ -48,17 +48,72 @@
     </nav>
     <!-- End of navbar -->
 
-    <p>CONTENT PLACEHOLDER</p>
-    <br />
-    <br />
-    <br />
-                <!-- Start of footer -->
-                <footer class="footer">
-                    <p class="footer-text">
-                        &copy; Copyright Kirsi Ralko 2020
-                    </p>
-                </footer>
-                <!-- End of footer -->
+    <!-- Start of container -->
+    <main class="container">
+        <section class="row">
+            <div class="col-md-12">
+                <h1>Contact</h1>
+                <hr />
+                <p>You can contact me on social media or by using the form below.  I look forward to hearing from you! </p>
+            
+                <table id="social-table">
+                    <!--All logos used in accordance with brand resource guidelines-->
+                    <tr>
+                      <td><img src = "assets/images/linkedin.png" alt="Linkedin" id="linkedin-icon" /></td>
+                      <td><a href="https://www.linkedin.com/in/kirsi-ralko-8b1a7912b/">LinkedIn</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src = "assets/images/github.png" alt="GitHub" id="github-icon" /></td>
+                        <td><a href="https://github.com/kirsralk">GitHub</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src = "assets/images/twitter.png" alt="GitHub" id="twitter-icon" /></td>
+                        <td><a href="https://twitter.com/kralkokenora">Twitter</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!--Contact Form-->
+        <section class="row">
+            <div class="col-md-12">
+                <form class="block">
+                    
+                    <div class="form-group">
+                        <h3>Contact Form:</h3>
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="msg">Message</label>
+                        <div class="col-sm-10">
+                            <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <button class="submit-btn">Submit</button>
+                    <br />
+                    <br />
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <!-- Start of footer -->
+    <footer class="footer">
+        <p class="footer-text">
+            &copy; Copyright Kirsi Ralko 2020
+        </p>
+    </footer>
+    <!-- End of footer -->
 </body>
 
 </html>
